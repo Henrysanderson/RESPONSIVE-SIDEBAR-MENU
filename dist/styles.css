@@ -8,6 +8,7 @@
 body {
   height: 150vh;
   background-color: #e4e9f7;
+  transition: all 0.4s ease;
 }
 
 .sidebar {
@@ -182,6 +183,7 @@ header .image-text .header-text {
   align-items: center;
   justify-content: center;
   min-width: 60px;
+  cursor: pointer;
 }
 
 .toggle-switch .switch {
@@ -202,4 +204,9 @@ header .image-text .header-text {
   left: 5px;
   transform: translateY(-50%);
   background: #fff;
+  transition: all 0.4s ease;
+}
+
+body.dark .switch::before {
+  left: 24px;
 }/*# sourceMappingURL=styles.css.map */
